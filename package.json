@@ -1,0 +1,26 @@
+{
+  "name": "AutomationPlaywrightFramework",
+  "type": "module",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "src/tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.3.1",
+    "jszip": "^3.10.1",
+    "pg": "^8.14.1",
+    "playwright": "^1.50.1",
+    "playwright-core": "^1.50.1",
+    "prettier": "3.4.2",
+    "sqlite3": "^5.1.7"
+  },
+  "dependencies": {
+    "ethers": "^5.8.0",
+    "node-fetch": "^3.3.2"
+  }
+}
